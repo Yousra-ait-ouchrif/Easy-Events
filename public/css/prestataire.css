@@ -1,0 +1,54 @@
+.prestataire-steps {
+    background: linear-gradient(to right, #3a3a3a, #555555, #777777); /* GRIS */
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  
+  .prestataire-steps h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: #fff;
+  }
+  
+  .steps-container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .step {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 30px 20px;
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(6px);
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  .step i {
+    font-size: 40px;
+    color: #080808;
+    margin-bottom: 20px;
+  }
+  
+  .step h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 15px;
+    color: #ccc;
+  }
+  
